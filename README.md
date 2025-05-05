@@ -2,8 +2,12 @@
 
 ## 1. Ders
 
-- Git dersleri tamamlandi
+- Git dersleri
 
 ## 2. Ders
 
-- intergers ve strings dersleri tamamlandi
+- intergers ve strings
+
+## 3. Ders
+
+- input, listeler ve print fonksiyonu
