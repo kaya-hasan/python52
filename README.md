@@ -1,13 +1,3 @@
 # Python Nova Akademi
 
-## 1. Ders
-
-- Git dersleri
-
-## 2. Ders
-
-- intergers ve strings
-
-## 3. Ders
-
-- input, listeler ve print fonksiyonu
+## Ödevler için ayrılmış bir branchtır
