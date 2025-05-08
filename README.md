@@ -11,3 +11,10 @@
 ## 3. Ders
 
 - input, listeler ve print fonksiyonu
+
+## 4. Ders
+
+- karsilastirma operatorleri
+- sozlukler
+- tuple
+- veri tipi donusumleri
