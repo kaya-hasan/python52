@@ -18,3 +18,8 @@
 - sozlukler
 - tuple
 - veri tipi donusumleri
+
+## 5. Ders
+
+- mantiksal baglaclar
+- if else
