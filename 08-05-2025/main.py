@@ -6,21 +6,22 @@ print("{} * {} * {} = {}".format(sayi1, sayi2, sayi3, sayi1 * sayi2 * sayi3))
 
 print("------------------------")
 
-kilo = int(input("Lütfen kilonuzu giriniz: "))
+kilo = float(input("Lütfen kilonuzu giriniz: (örnek: 1.75)"))
 boy = int(input("Lütfen boyunuzu giriniz: "))
 print(kilo / (boy * boy))
 
 print("------------------------")
 
 kilometre = int(input("Lütfen kaç km yol yaptığınızı giriniz: "))
-yakit = float(input("100 Kilometrede ne kadar yakıt harcıyorsunuz? : "))
-print("Ödeyeceğiniz tutar: ", kilometre * yakit)
+yakit = float(input("Kilometrede ne kadar yakıt harcıyorsunuz? (1.5): "))
+print("Toplam tutar: {} tl dir.".format(kilometre * yakit))
 
 print("------------------------")
 
 ad = str(input("Lütfen adinizi giriniz: "))
 soyad = str(input("Lütfen soyadinizi giriniz: "))
-print("Adınız ve Soyadınız: ", ad, soyad, sep="\n")
+numara = str(input("Lütfen numaranizi giriniz: "))
+print("Adınız ve Soyadınız: ", ad, soyad, numara, sep="\n")
 
 print("------------------------")
 
@@ -35,5 +36,5 @@ print("------------------------")
 
 kisakenar = float(input("Kisa kenar uzunlugunu giriniz: "))
 uzunkenar = float(input("Uzun kenar uzunluğunu giriniz: "))
-hipotenus = (kisakenar ** 2) + (uzunkenar ** 2)
+hipotenus = (kisakenar ** 2) + (uzunkenar ** 2) * 0.5
 print("Hipotenus: ", hipotenus)
