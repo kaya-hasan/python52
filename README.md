@@ -23,3 +23,8 @@
 
 - mantiksal baglaclar
 - if else
+
+## 6. Ders
+
+- while
+- range
