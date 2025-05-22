@@ -28,3 +28,9 @@
 
 - while
 - range
+
+## 7. Ders
+
+- for döngüleri
+- döngü ifadeleri
+- list comprehension
