@@ -34,3 +34,7 @@
 - for döngüleri
 - döngü ifadeleri
 - list comprehension
+
+## 8. Ders
+
+- fonksiyonlar
