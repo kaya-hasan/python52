@@ -38,3 +38,10 @@
 ## 8. Ders
 
 - fonksiyonlar
+
+## 9. Ders
+
+- return
+- methods
+- scope
+- lambda
