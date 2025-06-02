@@ -45,3 +45,7 @@
 - methods
 - scope
 - lambda
+
+## 10. Ders
+
+- modüller
