@@ -49,3 +49,9 @@
 ## 10. Ders
 
 - modüller
+
+## 11. Ders
+
+- modüller
+- sayi tahmin oyunu
+- oop giriş
