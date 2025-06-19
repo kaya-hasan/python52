@@ -55,3 +55,14 @@
 - modüller
 - sayi tahmin oyunu
 - oop giriş
+
+## 12. Ders
+
+- kalitim
+- özel metodlar
+- ödev çözümü
+
+## 13. Ders
+
+- ödev çözümü
+- oop
