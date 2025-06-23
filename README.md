@@ -66,3 +66,8 @@
 
 - ödev çözümü
 - oop
+
+## 14. Ders
+
+- dosya işlemleri
+- hata yakalama
