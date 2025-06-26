@@ -1,0 +1,7 @@
+Fernando Muslera,Galatasaray
+Atiba Hutchinson,Beşiktaş
+Simon Kjaer,Fenerbahçe
+Mauro Icardi,Galatasaray
+Ricardo Quaresma,Beşiktaş
+Dusan Tadic,Fenerbahçe
+Edin Djeko,Fenerbahçe
