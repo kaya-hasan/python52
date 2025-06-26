@@ -25,3 +25,6 @@ for i in liste:
         print(cift_mi(i))
     except ValueError:
         pass
+
+
+# Bu satır sadece commit mesajını değiştirmek için eklendi
