@@ -71,3 +71,7 @@
 
 - dosya işlemleri
 - hata yakalama
+
+## 15. Ders
+
+|dosya operasyonları|not hesaplama|
