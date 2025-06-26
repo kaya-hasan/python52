@@ -1,77 +1,17 @@
-# Python Nova Akademi
-
-## 1. Ders
-
-- Git dersleri
-
-## 2. Ders
-
-- intergers ve strings
-
-## 3. Ders
-
-- input, listeler ve print fonksiyonu
-
-## 4. Ders
-
-- karsilastirma operatorleri
-- sozlukler
-- tuple
-- veri tipi donusumleri
-
-## 5. Ders
-
-- mantiksal baglaclar
-- if else
-
-## 6. Ders
-
-- while
-- range
-
-## 7. Ders
-
-- for döngüleri
-- döngü ifadeleri
-- list comprehension
-
-## 8. Ders
-
-- fonksiyonlar
-
-## 9. Ders
-
-- return
-- methods
-- scope
-- lambda
-
-## 10. Ders
-
-- modüller
-
-## 11. Ders
-
-- modüller
-- sayi tahmin oyunu
-- oop giriş
-
-## 12. Ders
-
-- kalitim
-- özel metodlar
-- ödev çözümü
-
-## 13. Ders
-
-- ödev çözümü
-- oop
-
-## 14. Ders
-
-- dosya işlemleri
-- hata yakalama
-
-## 15. Ders
-
-|dosya operasyonları|not hesaplama|
+| Ders No | Konu                                  |
+| ------- | ------------------------------------- |
+| 1       | Git                                   |
+| 2       | Sayılar ve Strings                    |
+| 3       | input(), list, print()                |
+| 4       | Karşılaştırma, sözlük, tuple, dönüşüm |
+| 5       | Mantıksal bağlaçlar, if/else          |
+| 6       | while, range                          |
+| 7       | for döngüsü, list comprehension       |
+| 8       | Fonksiyonlar                          |
+| 9       | return, lambda, scope                 |
+| 10      | Modüller                              |
+| 11      | Sayı Tahmin, OOP Giriş                |
+| 12      | Kalıtım, özel metodlar                |
+| 13      | OOP devam                             |
+| 14      | Dosya işlemleri, hata yönetimi        |
+| 15      | Not hesaplama                         |
