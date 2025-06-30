@@ -15,3 +15,4 @@
 | 13      | OOP devam                             |
 | 14      | Dosya işlemleri, hata yönetimi        |
 | 15      | Not hesaplama                         |
+| 16      | Gömülü Fonksiyonlar                   |
