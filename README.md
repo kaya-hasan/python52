@@ -18,3 +18,4 @@
 | 16      | Gömülü Fonksiyonlar                   |
 | 17      | Gömülü Fonksiyonlar 2                 |
 | 18      | İleri Seviye Veri Yapıları            |
+| 19      | Set - Sqlite                          |
