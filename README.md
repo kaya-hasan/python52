@@ -21,3 +21,4 @@
 | 19      | Set - Sqlite                          |
 | 20      | Sqlite - Update, Delete               |
 | 21      | Decorator and Library Project         |
+| 22      | \*args ve \*\*kwargs                  |
