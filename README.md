@@ -22,3 +22,4 @@
 | 20      | Sqlite - Update, Delete               |
 | 21      | Decorator and Library Project         |
 | 22      | \*args ve \*\*kwargs                  |
+| 23      | iterator, decorator, generator        |
