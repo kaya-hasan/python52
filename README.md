@@ -23,3 +23,5 @@
 | 21      | Decorator and Library Project         |
 | 22      | \*args ve \*\*kwargs                  |
 | 23      | iterator, decorator, generator        |
+| 24      | datetime, os module                   |
+| 25      | request, bs4, pillow, sys             |
