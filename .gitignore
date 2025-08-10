@@ -1,5 +1,12 @@
-.DS_Store
-.idea
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
 venv/
-/venv
-/pycache/*
+.env
+*.log
+*.sqlite3
+db.sqlite3
+.ipynb_checkpoints/
+.mypy_cache/
+.pytest_cache/
