@@ -25,3 +25,4 @@
 | 23      | iterator, decorator, generator        |
 | 24      | datetime, os module                   |
 | 25      | request, bs4, pillow, sys             |
+| 26      | Django web framework                  |
