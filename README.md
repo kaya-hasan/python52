@@ -26,3 +26,4 @@
 | 24      | datetime, os module                   |
 | 25      | request, bs4, pillow, sys             |
 | 26      | Django web framework                  |
+| 27      | Django web framework                  |
