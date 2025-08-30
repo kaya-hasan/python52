@@ -1,20 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Python Blog</title>
-  </head>
-  <body>
-    <h3 style="color: brown; background-color: burlywood; font-size: 25px">
-      Anasayfa
-    </h3>
-    <p style="background-color: bisque">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis beatae
-      nihil ratione ex quia, odit harum voluptatibus possimus ipsam neque quidem
-      accusamus in laborum assumenda. Repudiandae minus tempora magni ratione
-      pariatur, nobis officia, numquam illo facere libero minima eos sequi
-      labore officiis aut veniam et sed adipisci alias doloremque sit.
+{% extends "layout.html" %} {% block body %}
+<h3 style="color: brown; background-color: burlywood; font-size: 25px">
+  Burası da index.html dir.
+</h3>
+<p style="background-color: bisque">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis beatae nihil
+  ratione ex quia, odit harum voluptatibus possimus ipsam neque quidem accusamus
+  in laborum assumenda. Repudiandae minus tempora magni ratione pariatur, nobis
+  officia, numquam illo facere libero minima eos sequi labore officiis aut
+  veniam et sed adipisci alias doloremque sit.
+</p>
+<div class="card" style="width: 18rem">
+  <img
+    src="https://www.shutterstock.com/image-vector/ankara-turkey-august-13-2025-260nw-2665140543.jpg"
+    class="card-img-top"
+    alt="..."
+  />
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">
+      Some quick example text to build on the card title and make up the bulk of
+      the card’s content.
     </p>
-  </body>
-</html>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+{% endblock %}
