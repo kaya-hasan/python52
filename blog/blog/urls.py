@@ -15,11 +15,14 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
-from article.views import index
+from django.urls import path, include
+from article.views import index, about
 
 # 127:0.0.1:8000/
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name='index'),
+    path('about/', about, name='about'),
+    path('articles/', include("article.urls")),  # Dinamik URL
+    path('user/', include("user.urls"))  # Dinamik URL
 ]
