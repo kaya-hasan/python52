@@ -28,3 +28,5 @@
 | 26      | Django web framework                  |
 | 27      | Django web framework                  |
 | 28      | Django orm & web framework            |
+| 29      | Django static files                   |
+| 30      | Django login & register pages         |
