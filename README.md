@@ -30,3 +30,4 @@
 | 28      | Django orm & web framework            |
 | 29      | Django static files                   |
 | 30      | Django login & register pages         |
+| 31      | OOP Zoo Project                       |
