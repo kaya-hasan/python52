@@ -31,3 +31,5 @@
 | 29      | Django static files                   |
 | 30      | Django login & register pages         |
 | 31      | OOP Zoo Project                       |
+| 32      | HTML & CSS Essentials                 |
+| 33      | HTML & CSS Essentials                 |
