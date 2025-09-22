@@ -1,0 +1,26 @@
+Ödevin Konusu:
+Kendi kişisel tanıtım sayfanı oluştur. Bu sayfada aşağıdaki HTML etiketlerini kullanmalısın.
+
+İstenilenler:
+  1. Başlık Etiketleri (h1–h6)
+    ○ Sayfanın en üstünde h1 ile büyük bir başlık yaz.
+    ○ Alt başlıkları (h2, h3…) kullanarak bölümler oluştur.
+  2. Paragraf ve Biçimlendirme
+    ○ En az 2 paragraf yaz.
+    ○ İçinde şu etiketleri kullan:
+      ■ <b> veya <strong> (kalın)
+      ■ <i> veya <em> (italik)
+      ■ <mark> (vurgulu)
+      ■ <small> (küçük yazı)
+      ■ <del> ve <ins>
+  3. Bağlantılar (a etiketi)
+    ○ Dışarıya (ör. YouTube, Wikipedia) bir link ver.
+    ○ E-posta adresine link oluştur (mailto:).
+  4. Resim (img etiketi)
+    ○ En az 1 resim ekle.
+    ○ Resme tıklanınca başka bir siteye yönlendirsin..
+  5. Tablo (table)
+    ○ 3 satır ve 3 sütun olacak şekilde bir tablo yap.
+    ○ Örneğin: arkadaş isimleri, yaşları.
+  6. Css kullanma kısmı opsiyonel
+
