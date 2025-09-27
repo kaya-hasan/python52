@@ -33,3 +33,4 @@
 | 31      | OOP Zoo Project                       |
 | 32      | HTML & CSS Essentials                 |
 | 33      | HTML & CSS Essentials                 |
+| 34      | HTML Tags                             |
