@@ -34,3 +34,4 @@
 | 32      | HTML & CSS Essentials                 |
 | 33      | HTML & CSS Essentials                 |
 | 34      | HTML Tags                             |
+| 35      | HTML Forms                            |
