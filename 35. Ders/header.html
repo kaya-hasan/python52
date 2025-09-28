@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="header.css" />
+    <title>28 Eylul</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="youtube.com"><img src="home.png" alt="" /></a>
+      </div>
+      <nav>
+        <a href="#">Home</a> <a href="#">About</a> <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <form action="">
+      <label for="name"></label>
+      <input type="text" id="name" name="name" placeholder="adınız" required />
+      <label for="name">adiniz: </label>
+      <input
+        type="password"
+        id="name"
+        name="name"
+        placeholder="şifrenizi giriniz"
+        required
+      />
+      <label for="email">Email</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="email giriniz"
+        required
+      />
+      <label for="gender">Cinsiyet:</label>
+      <input type="radio" id="male" name="gender" value="male" required />Erkek
+      <input
+        type="radio"
+        id="female"
+        name="gender"
+        value="female"
+        required
+      />Kadın
+      <label for="subscribe">Abone Ol</label>
+      <input type="checkbox" id="subscribe" name="subscribe" value="yes" />Yes
+      <input type="checkbox" id="subscribe" name="subscribe" value="no" />No
+      <input
+        type="checkbox"
+        id="subscribe"
+        name="subscribe"
+        value="maybe"
+      />Maybe
+      <button>Gönder</button>
+    </form>
+    <label for="city">Şehir Seçin:</label>
+    <select id="city" name="city">
+      <option value="">Şehir seçiniz</option>
+      <option value="istanbul">İstanbul</option>
+      <option value="izmir">İzmir</option>
+      <option value="ankara">Ankara</option>
+      <option value="bursa">Bursa</option>
+      <option value="ankara">Antalya</option>
+    </select>
+
+    <label for="message">Mesajınız:</label>
+    <textarea
+      id="message"
+      name="message"
+      rows="3"
+      cols="50"
+      placeholder="Mesajınızı
+girin"
+    ></textarea>
+    <form action="">
+      <button type="submit">Gönder</button>
+      <label for="tc">TC Kimlik:</label>
+      <input
+        type="text"
+        id="tc"
+        name="tc"
+        required
+        pattern="[0-9]{11}"
+        title="11 haneli tc kimlik numaranızı giriniz"
+      />
+      <button type="submit">Gönder</button>
+    </form>
+  </body>
+</html>
