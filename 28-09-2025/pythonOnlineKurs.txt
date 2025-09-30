@@ -1,0 +1,5 @@
+1) header tasarlansın menüler kısmın da logo olsun
+2) logoya tıklandığında anasayfaya gelsin 
+3) menü içerikleri anasayfa iletişim projelerimiz
+4) aynı sayfa da header altında bir tane login page yani kullanıcı mail ve şifresini alan inputlar olsun 
+5) tasarım opsiyoneldir
