@@ -35,3 +35,4 @@
 | 33      | HTML & CSS Essentials                 |
 | 34      | HTML Tags                             |
 | 35      | HTML Forms                            |
+| 36      | Restorant Website                     |
