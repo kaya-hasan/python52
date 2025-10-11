@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Iletisim</title>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="index.html" class="logo">Kaya Hastanesi</a>
+        <nav class="nav">
+          <a href="index.html" class="nav-link">Anasayfa</a>
+          <a href="about.html" class="nav-link">Hakkımızda</a>
+          <a href="sections.html" class="nav-link">Bölümler</a>
+          <a href="contact.html" class="nav-link">İletişim & Randevu</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container contact-main">
+      <form>
+        <div class="form">
+          <!-- Ad Soyad -->
+          <label for="name"><b>Ad Soyad</b></label>
+          <input
+            id="name"
+            type="text"
+            placeholder="Ad Soyad"
+            name="name"
+            required
+          />
+
+          <!-- E-posta -->
+          <label for="email"><b>Email</b></label>
+          <input
+            id="email"
+            type="email"
+            placeholder="Email"
+            name="email"
+            required
+          />
+
+          <!-- Bölüm Seçimi -->
+          <label for="department"><b>Bölüm Seçiniz</b></label>
+          <select id="department" name="department" required>
+            <option value="">Bir bölüm seçin</option>
+            <option value="kardiyoloji">Kardiyoloji</option>
+            <option value="noroloji">Nöroloji</option>
+            <option value="goz">Göz Hastalıkları</option>
+            <option value="ortopedi">Ortopedi</option>
+            <option value="cocuk">Çocuk Sağlığı</option>
+          </select>
+          <label for="message"><b>Mesajınız</b></label>
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            placeholder="Mesajınızı buraya yazınız..."
+            required
+          ></textarea>
+          <button type="submit">Gönder</button>
+        </div>
+      </form>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>&copy; 2025 Kaya Hastanesi. Tüm hakları saklıdır.</p>
+        <nav class="nav">
+          <a href="index.html" class="nav-link">Anasayfa</a>
+          <a href="about.html" class="nav-link">Hakkımızda</a>
+          <a href="sections.html" class="nav-link">Bölümler</a>
+          <a href="contact.html" class="nav-link">İletişim & Randevu</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
