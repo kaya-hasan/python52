@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+.nav {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 24px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo {
+  color: #e50914;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 16px;
+  font-weight: bold;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.right a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.search {
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #eae5e5;
+  color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.profiles {
+  color: #fff;
+  text-decoration: none;
+  background: #440202;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.hero {
+  min-width: 46vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero h1 {
+  margin: 0 0 8px;
+}
+
+.actions .btn {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 20px;
+  font-weight: bold;
+  border: 1px solid #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.rows {
+  text-align: center;
+  padding: 16px 10px 30px;
+}
+
+.row h2 {
+  margin: 10px 10px;
+}
+.row-posters {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  overflow: hidden;
+  padding: 20px;
+}

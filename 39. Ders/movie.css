@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #000;
+  color: #fff;
+}
+
+.nav {
+  padding: 16px 24px;
+  background: rgb(0, 0, 0.1);
+}
+
+.logo {
+  color: #e50914;
+  font-weight: 900;
+}
+
+.movie .cover {
+  width: 100%;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  background: rgb(0, 0, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.actions .btn {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 20px;
+  font-weight: bold;
+  border: 1px solid #fff;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.btn.play {
+  background: #e50914;
+  border: none;
+}
+
+.details {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.info {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 20px;
+}
