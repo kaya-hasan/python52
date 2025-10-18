@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/youtube-logo" href="icons/youtube-svgrepo-com.svg">
+  <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/video.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
+
+  <title>YouTube Clone</title>
+</head>
+
+<body>
+  <div class="header">
+    <div class="left-section">
+      <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+
+      <img class="youtube-logo" src="icons/youtube-logo.svg">
+      <div class="tooltip">Youtube Ana Sayfası</div>
+
+
+    </div>
+    <div class="middle-section">
+      <input class="search-bar" type="text" placeholder="Ara">
+      <button class="search-button">
+        <img class="search-icon" src="icons/search.svg">
+        <div class="tooltip">Ara</div>
+      </button>
+      <button class="voice-search-button">
+        <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+        <div class="tooltip">Sesle arama yapın</div>
+      </button>
+    </div>
+    <div class="right-section">
+      <div class="upload-icon-container">
+        <img class="upload-icon" src="icons/upload.svg">
+        <div class="tooltip">Oluştur</div>
+      </div>
+      <div class="notifications-icon-container">
+        <img class="notifications-icon" src="icons/notifications.svg">
+        <div class="tooltip">Bildirimler</div>
+        <div class="notifications-count">2</div>
+      </div>
+      <img class="current-user-picture" src="channel-pictures/my-channel.jpg">
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <div class="sidebar-link"><img src="icons/home.svg">
+      <div>Anasayfa</div>
+    </div>
+    <div class="sidebar-link"><img src="icons/explore.svg">
+      <div>Keşfet</div>
+    </div>
+    <div class="sidebar-link"><img src="icons/subscriptions.svg">
+      <div>Abonelikler</div>
+    </div>
+    <div class="sidebar-link"><img src="icons/originals.svg">
+      <div>Orijinaller</div>
+    </div>
+    <div class="sidebar-link"><img src="icons/youtube-music.svg">
+      <div>Youtube Müzik</div>
+    </div>
+    <div class="sidebar-link"><img src="icons/library.svg">
+      <div>Kütüphane</div>
+    </div>
+  </div>
+
+  <div class="video-grid">
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+        <div class="video-time">21:48:35</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channels1-profile.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">Full Course Web Development [22 Hours] | Learn Full Stack Web Development From
+            Scratch
+          </p>
+          <p class="video-author">codedamn</p>
+          <p class="video-stats">1,9 Mn görüntüleme &#183; 1 yıl önce</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-2.webp">
+        <div class="video-time">4:54</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channels2-profile.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">How To Get Out of Tutorial Hell (Step by Step Guide)</p>
+          <p class="video-author">bigboxSWE</p>
+          <p class="video-stats">346 B görüntüleme &#183; 9 ay önce</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-3.webp">
+        <div class="video-time">9:43</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channels3-profile.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">Boost Your CSS Skills: Excel with Float & Clear Property
+          </p>
+          <p class="video-author">Ajay official tech</p>
+          <p class="video-stats">54 görüntüleme &#183; 1 gün önce</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-4.webp">
+        <div class="video-time">8:19</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channels4-profile.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">A Day In The Life Of An Amazon Software Engineer (Seattle Edition)</p>
+          <p class="video-author">Albert Yang</p>
+          <p class="video-stats">3,9 Mn görüntüleme &#183; 1 yıl önce</p>
+        </div>
+      </div>
+    </div>
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-5.webp">
+        <div class="video-time">13:15</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channels5-profile.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">Why you're always tired
+          </p>
+          <p class="video-author">Better Ideas
+            <img class="checkmark" src="icons/checkmark.svg">
+          </p>
+          <p class="video-stats">1,9 Mn görüntüleme &#183; 1 yıl önce</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-6.webp">
+        <div class="video-time">32:23</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channels6-profile.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">Incredible scroll-based animations with CSS-only</p>
+          <p class="video-author">Kevin Powell
+            <img class="checkmark" src="icons/checkmark.svg">
+          </p>
+          <p class="video-stats">104 B görüntüleme &#183; 2 hafta önce
+
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-7.webp">
+        <div class="video-time">8:04</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channels7-profile.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">Gosu - 514</p>
+          <p class="video-author">Gosu
+            <img class="checkmark" src="icons/checkmark.svg">
+          </p>
+          <p class="video-stats">174 B görüntüleme &#183; 4 gün önce
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="video-preview">
+      <div class="thumbnail-row">
+        <img class="thumbnail" src="thumbnails/thumbnail-8.webp">
+        <div class="video-time">1:49:55</div>
+      </div>
+      <div class="video-info-grid">
+        <div class="channel-picture">
+          <img class="profile-picture" src="channel-pictures/channels8-profile.jpg">
+        </div>
+        <div class="video-info">
+          <p class="video-title">How To Speak Fluently In English About Almost Anything</p>
+          <p class="video-author">EnglishAnyone
+            <img class="checkmark" src="icons/checkmark.svg">
+          </p>
+          <p class="video-stats">2 Mn görüntüleme &#183; 9 ay önce</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>
