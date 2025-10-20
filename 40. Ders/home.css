@@ -1,0 +1,177 @@
+:root {
+  --bg: #0f0f0f;
+  --layer: #181818;
+  --text: #ffffff;
+  --muted: #b3b3b3;
+  --chips: #2a2a2a;
+  --border: #2a2a2a;
+  --accent: #ff0000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 8px 16px;
+  background: var(--layer);
+  border-bottom: 1px solid var(--border);
+}
+
+.topbar .left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.topbar .logo {
+  display: flex;
+  place-items: center;
+  width: 30px;
+  height: 36px;
+  background: var(--accent);
+  color: white;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.topbar .search input {
+  width: min(52vh, 600px);
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  margin-left: 20px;
+  border-radius: 2px;
+}
+
+.topbar .search button {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 18px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.topbar .right a {
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+.topbar .right a:hover {
+  background: var(--chips);
+}
+
+.page {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  gap: 0;
+  min-height: calc(100dvh - 56px);
+}
+
+.sidebar {
+  position: sticky;
+  top: 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px;
+  background: var(--layer);
+  border-right: 1px solid var(--border);
+  height: calc(100dvh - 56px);
+}
+
+.sidebar nav {
+  display: grid;
+}
+.sidebar a {
+  padding: 10px 12px;
+  border-radius: 8px;
+  color: var(--text);
+}
+.sidebar a:hover {
+  background: var(--chips);
+}
+.sidebar a.active {
+  background: var(--accent);
+  color: aqua;
+  font-weight: bold;
+}
+
+main {
+  padding: 16px 20px;
+}
+
+.chips {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.chips a,
+.chips span {
+  background: var(--chips);
+  color: var(--text);
+  padding: 8px 12px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  font-size: 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+
+.video-card {
+  background: transparent;
+}
+
+.video-card .title {
+  font-weight: 600px;
+}
+
+.video-card .stats {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+footer {
+  color: var(--muted);
+  font-size: 12px;
+  padding: 24px 0;
+  text-align: center;
+}

@@ -1,0 +1,285 @@
+:root {
+  --bg: #0f0f0f;
+  --layer: #181818;
+  --text: #ffffff;
+  --muted: #b3b3b3;
+  --chips: #2a2a2a;
+  --border: #2a2a2a;
+  --accent: #ff0000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:focus {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 8px 16px;
+  background: var(--layer);
+  border-bottom: 1px solid var(--border);
+}
+
+.topbar .left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.topbar .logo {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+  border-radius: 8px;
+}
+
+.topbar .search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.topbar .search input {
+  width: min(52vh, 600px);
+  background: var(--bg);
+  color: var(--text);
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  border-radius: 2px;
+}
+
+.topbar .search button {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  color: var(--text);
+  padding: 8px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.topbar .right a {
+  padding: 8px 10px;
+  border-radius: 8px;
+}
+
+.topbar .right a:hover {
+  background: var(--chips);
+}
+
+.page {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  min-height: calc(100dvh - 56px);
+}
+
+.sidebar {
+  position: sticky;
+  top: 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 16px;
+  background: var(--layer);
+  border-right: 1px solid var(--border);
+  height: calc(100dvh - 56px);
+}
+
+.sidebar a {
+  padding: 10px 12px;
+  border-radius: 8px;
+}
+
+.sidebar a:hover {
+  background: var(--chips);
+}
+
+main {
+  padding: 24px 32px;
+}
+
+.channel-header {
+  display: grid;
+  gap: 16px;
+  background: var(--layer);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.channel-header .banner {
+  width: 100%;
+  height: clamp(160px, 26vh, 240px);
+  background: linear-gradient(135deg, #303030, #1d1d1d);
+  object-fit: cover;
+}
+
+.channel-meta {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 0 24px;
+}
+
+.channel-meta .avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: var(--chips);
+  border: 2px solid var(--border);
+  object-fit: cover;
+}
+
+.channel-meta h1 {
+  margin: 0;
+  font-size: clamp(20px, 3vw, 28px);
+  font-weight: 600;
+}
+
+.channel-meta .subtitle {
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.subscribe {
+  justify-self: end;
+  margin: -12px 24px 24px;
+  padding: 10px 22px;
+  background: #fff;
+  color: #000;
+  font-weight: 600;
+  border-radius: 999px;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.subscribe:hover {
+  opacity: 0.85;
+}
+
+.sep {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 24px 0;
+}
+
+h2 {
+  margin: 0 0 16px;
+  font-size: 18px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.video-card {
+  display: grid;
+  gap: 12px;
+}
+
+.video-card .thumb {
+  display: block;
+  aspect-ratio: 16 / 9;
+  border-radius: 12px;
+  background: var(--layer);
+  overflow: hidden;
+}
+
+.video-card .thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-card .meta {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  align-items: start;
+}
+
+.video-card .meta > img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--chips);
+}
+
+.video-card .title {
+  display: inline-block;
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+.video-card .stats {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+@media (max-width: 960px) {
+  .page {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: static;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    order: -1;
+  }
+
+  .sidebar a {
+    flex: 1 1 auto;
+    text-align: center;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  .channel-meta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .subscribe {
+    justify-self: start;
+    margin: 0 24px 24px;
+  }
+}
