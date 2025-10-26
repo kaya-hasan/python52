@@ -40,3 +40,5 @@
 | 38      | Udemy Website                         |
 | 39      | Netflix Website                       |
 | 40      | Youtube Clone (HTML & CSS)            |
+| 41      | Bootstrap Introduction                |
+| 42      | Bootstrap Mini Project                |
