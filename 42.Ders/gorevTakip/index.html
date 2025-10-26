@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Eticaret - Görev Takip</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-dark bg-dark mb-4">
+      <div class="container">
+        <a href="#" class="navbar-brand fw-bold">Görev Takibi</a>
+        <button
+          class="btn btn-outline-light btn-sm"
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#about"
+        >
+          Yeni Görev
+        </button>
+      </div>
+    </nav>
+
+    <div class="container"> 
+        <div class="row g-3 align-items-end" >
+            <div class="col-md-8">
+                <label for="task" class="form-label">Görev Adı</label>
+                <input type="text" class="form-control" id="task" />
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-primary w-100" id="addTaskBtn">Görev Ekle</button>
+            </div>
+             <div class="col-md-2">
+                <label class="form-label"> Filtre</label>
+                <select id="filter" class="form-select">
+                    <option value="all">Tümü</option>
+                    <option value="completed">Tamamlananlar</option>
+                    <option value="pending">Bekleyenler</option>
+                </select>
+             </div>
+        </div>
+
+        <div class="mt-4">
+            <div class="d-flex justify-content-between small mb-1"> 
+                <span>İlerleeme</span>    <span>0/0</span> 
+            </div>
+            <div class="progress">
+                <div id="progressBar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+        </div>
+
+        <ul class="list-group mt-4" id="taskList">
+            <!-- Görevler buraya eklenecek -->
+        
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

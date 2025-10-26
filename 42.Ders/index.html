@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a href="#" class="navbar-brand">Brand</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Buton
+        </button>
+        <div id="navbarNav" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link active">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Features</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Hero-->
+    <header id="hero" class="bg-light">
+      <div class="container py-5 text-center">
+        <h1 class="display-4">Welcome to Our Website</h1>
+        <p class="lead text-muted">
+          This is a simple hero unit, a simple jumbotron-style component for
+          calling extra attention to featured content or information.
+        </p>
+        <a href="#" class="btn btn-primary btn-lg">Learn More</a>
+      </div>
+    </header>
+
+    <!--Kart-->
+    <section id="kurslar" class="container py-5">
+      <h2 class="h4 mb-4 text-center">Popüler kurslar</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="home.png" class="card-img-top" alt="Kurs 1" />
+            <div class="card-body">
+              <h5 class="card-title">Kurs başlığı 1</h5>
+              <p class="card-text">
+                Bu, kurs 1 için kısa bir açıklamadır. Bu kurs hakkında bilgi
+                verir.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="home.png" class="card-img-top" alt="Kurs 1" />
+            <div class="card-body">
+              <h5 class="card-title">Kurs başlığı 2</h5>
+              <p class="card-text">
+                Bu, kurs 2 için kısa bir açıklamadır. Bu kurs hakkında bilgi
+                verir.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card h-100">
+            <img src="home.png" class="card-img-top" alt="Kurs 1" />
+            <div class="card-body">
+              <h5 class="card-title">Kurs başlığı 3</h5>
+              <p class="card-text">
+                Bu, kurs 3 için kısa bir açıklamadır. Bu kurs hakkında bilgi
+                verir.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Fiyatlandırma-->
+    <section class="bg-light">
+      <div class="container py-5">
+        <h2 class="h4 mb-4 text-center">Fiyatlandırma</h2>
+        <div class="row g-3">
+          <div class="col-md-4">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <h5 class="card-title">Temel</h5>
+                <p class="card-text display-4">$9.99</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <h5 class="card-title">Standart</h5>
+                <p class="card-text display-4">$19.99</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 text-center">
+              <div class="card-body">
+                <h5 class="card-title">Premium</h5>
+                <p class="card-text display-4">$29.99</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--İletişim Formu-->
+    <div class="container py-5">
+      <form class="h-5">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <small id="emailHelp" class="form-text text-muted"
+            >We'll never share your email with anyone else.</small
+          >
+        </div>
+        <div class="form-group">
+          <label for="exampleInputPassword1">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+          />
+        </div>
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
+          <label class="form-check-label" for="exampleCheck1"
+            >Check me out</label
+          >
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+    <!--Footer-->
+    <footer class="bg-dark text-white py-4"></footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <!--model tetikleyici-->
+    <button
+      class="btn btn-outline-secondary btn-sm"
+      data-bs-toggle="modal"
+      data-bs-target="#m1"
+    >
+      Modal Aç
+    </button>
+    <div class="modal fade" id="m1" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal Başlığı</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Bu, Bootstrap modal penceresinin içeriğidir.
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Kapat
+            </button>
+            <button type="button" class="btn btn-primary">Kaydet</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--toast mesaj-->
+    <button
+      class="btn btn-primary btn-sm"
+      onclick="new bootstrap.Toast(document.getElementById('liveToast')).show()"
+    >
+      Toast Göster
+    </button>
+    <div
+      class="toast position-fixed bottom-0 end-0 m-3"
+      id="liveToast"
+      role="alert"
+      aria-live="assertive"
+      aria-atomic="true"
+    ></div>
+    <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+        <img src="..." class="rounded me-2" alt="..." />
+        <strong class="me-auto">Bootstrap</strong>
+        <small>11 mins ago</small>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="toast"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="toast-body">Hello, world! This is a toast message.</div>
+    </div>
+    <!--tabs Sekme-->
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link active"
+          id="home-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#home"
+          type="button"
+          role="tab"
+          aria-controls="home"
+          aria-selected="true"
+        >
+          Home
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="profile-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#profile"
+          type="button"
+          role="tab"
+          aria-controls="profile"
+          aria-selected="false"
+        >
+          Profile
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button
+          class="nav-link"
+          id="contact-tab"
+          data-bs-toggle="tab"
+          data-bs-target="#contact"
+          type="button"
+          role="tab"
+          aria-controls="contact"
+          aria-selected="false"
+        >
+          Contact
+        </button>
+      </li>
+  </body>
+</html>
