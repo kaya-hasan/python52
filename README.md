@@ -42,3 +42,7 @@
 | 40      | Youtube Clone (HTML & CSS)            |
 | 41      | Bootstrap Introduction                |
 | 42      | Bootstrap Mini Project                |
+| 43      | Bootstrap Mini Project                |
+| 44      | Bootstrap Mini Project                |
+| 45      | Bootstrap Mini Project                |
+| 46      | TailwindCSS Introduction              |
