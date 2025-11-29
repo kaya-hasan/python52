@@ -46,5 +46,6 @@
 | 44      | Bootstrap Mini Project                |
 | 45      | Bootstrap Mini Project                |
 | 46      | TailwindCSS Introduction              |
-| 46      | TailwindCSS Mini Project              |
-| 47      | Javascript Introduction               |
+| 47      | TailwindCSS Mini Project              |
+| 48      | Javascript Introduction               |
+| 49      | Javascript Introduction               |
