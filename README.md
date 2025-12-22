@@ -49,3 +49,6 @@
 | 47      | TailwindCSS Mini Project              |
 | 48      | Javascript Introduction               |
 | 49      | Javascript Introduction               |
+| 50      | Javascript Loops                      |
+| 51      | Javascript Arrays & Functions         |
+| 52      | Javascript Objects                    |
