@@ -1,0 +1,23 @@
+{% extends "base.html" %} {% block content %}
+<h2>Giriş Yap</h2>
+
+<form method="post">
+  {{ form.hidden_tag() }}
+
+  <div>
+    {{ form.email.label }} {{ form.email(size=26) }} {% if form.email.errors %}
+    {% for error in form.email.errors %}
+    <span style="color: red">{{ error }}</span>
+    {% endfor %} {% endif %}
+  </div>
+
+  <div>
+    {{ form.sifre.label }} {{ form.sifre(size=26) }} {% if form.sifre.errors %}
+    {% for error in form.sifre.errors %}
+    <span style="color: red">{{ error }}</span>
+    {% endfor %} {% endif %}
+  </div>
+
+  {{ form.submit() }}
+</form>
+{% endblock %}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test</title>
+  </head>
+  <body>
+    <h1>Post Testi</h1>
+    <form id="denemeK">
+      <input type="text" id="isim" placeholder="İsminizi giriniz: " />
+      <input type="email" id="email" placeholder="E posta adresinizi giriniz" />
+      <button type="button" onclick="Kayditamamla()">Kayıt_Ol</button>
+    </form>
+
+    <div id="sonuc"></div>
+
+    <script>
+      function Kayditamamla() {
+        let isim = document.getElementById("isim").value;
+        let email = document.getElementById("email").value;
+
+        let özelK =
+          "isim=" +
+          encodeURIComponent(isim) +
+          "&email=" +
+          encodeURIComponent(email);
+
+        let xhr = new XMLHttpRequest();
+        xhr.open("POST", "https://jsonplaceholder.typicode.com/posts", true);
+        xhr.setRequestHeader(
+          "Content-Type",
+          "application/x-www-form-urlencoded"
+        );
+
+        xhr.onload = function () {
+          if (xhr.status === 200 || xhr.status === 201) {
+            console.log("Sunucu yanıt: ", xhr.responseText);
+            let yanit = JSON.parse(xhr.responseText);
+
+            document.getElementById("sonuc").innerHTML = `
+              <h2 style="color: green;">Kayıt Tamamlanmıştır</h2>
+              <p><strong>Sunucu tarafından gelen id: </strong>${yanit.id}</p>
+              <p><strong>Gönderdiğimiz veri:</strong> ${özelK}</p>
+            `;
+          } else {
+            alert("Kayıt başarısız. Durum kodu: " + xhr.status);
+          }
+        };
+
+        xhr.onerror = function () {
+          alert("Bir hata oluştu. Lütfen tekrar deneyiniz.");
+        };
+
+        xhr.send(özelK);
+      }
+    </script>
+  </body>
+</html>

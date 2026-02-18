@@ -1,0 +1,97 @@
+/* Genel */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 50px;
+  padding: 0 16px;
+}
+
+img {
+  width: 900px;
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  border-radius: 8px;
+  display: none;
+}
+
+.alert {
+  display: none;
+  width: min(90%, 320px);
+  margin: 20px auto;
+  padding: 15px;
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+input {
+  display: block;
+  padding: 10px;
+  font-size: 16px;
+  width: min(90%, 320px);
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: min(90%, 320px);
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Mesaj */
+#message {
+  margin-top: 20px;
+  font-size: 18px;
+  color: red;
+}
+
+/* Resmi sil butonu */
+#removeImage {
+  display: inline-block;
+  margin: 10px auto;
+  background-color: #dc3545;
+  color: wheat;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  width: min(90%, 320px); /* responsive */
+  cursor: pointer;
+}
+
+#removeImage:hover {
+  background-color: #b52a37;
+}
+
+/* Mobil ince ayar */
+@media (max-width: 600px) {
+  body {
+    margin-top: 24px;
+  }
+
+  #message {
+    font-size: 16px;
+  }
+}

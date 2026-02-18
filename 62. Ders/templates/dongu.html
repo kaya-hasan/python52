@@ -1,0 +1,28 @@
+<!--Donguler-->
+
+{% for urun in urunler%}
+<li>{{urun.ad}}-{{urun.fiyat}}TL</li>
+
+{% endfor %}
+
+<!--Kosullar-->
+
+{% if kullanici.giris %}
+<p>Hoş geldin {{kullanici.ad}}</p>
+
+{% else %}
+
+<p>Lütfen giriş yapınız</p>
+
+{% endif%}
+
+<!--Filtre-->
+
+{{metin|upper}}
+<!--Uppercase-->
+
+{{liste|length}}
+<!--Liste uzunluğu-->
+
+{{tarih|date('%d/%m/%Y')}}
+<!--tarih bilgisi-->

@@ -1,0 +1,1053 @@
+/* Aside */
+.aside {
+
+  position: absolute;
+  width: 254px;
+  height: 960px;
+  left: 0px;
+  top: 64px;
+
+  background: #ffffff;
+  box-shadow: inset -1px 0px 0px #edeff1;
+
+}
+
+/* Meet */
+.meet {
+
+  position: absolute;
+  width: 253px;
+  height: 132px;
+  left: 1px;
+  top: 828px;
+
+}
+
+/* New meeting */
+.new-meeting {
+
+  position: absolute;
+  height: 20px;
+  left: 26.48%;
+  right: 40.71%;
+  top: calc(50% - 20px / 2);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #414244;
+
+}
+
+/* My meetings */
+.my-meetings {
+
+  position: absolute;
+  height: 20px;
+  left: 26.48%;
+  right: 41.5%;
+  top: calc(50% - 20px / 2 + 32px);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #414244;
+
+}
+
+/* videocam */
+.videocam {
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 23px;
+  top: 56px;
+
+}
+
+/* Vector */
+.vector {
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+}
+
+/* Vector */
+.vector-2 {
+
+  position: absolute;
+  left: 12.5%;
+  right: 12.5%;
+  top: 25%;
+  bottom: 25%;
+
+  background: #767676;
+
+}
+
+/* calendar 1 */
+.calendar-1 {
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 23px;
+  top: 88px;
+
+}
+
+/* Vector */
+.vector-3 {
+
+  position: absolute;
+  left: 12.5%;
+  right: 12.5%;
+  top: 4.17%;
+  bottom: 12.5%;
+
+  background: #767676;
+
+}
+
+/* Meet */
+.meet-2 {
+
+  position: absolute;
+  height: 20px;
+  left: 9.09%;
+  right: 78.26%;
+  top: calc(50% - 20px / 2 - 32px);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #414244;
+
+}
+
+/* separator */
+.separator {
+
+  position: absolute;
+  width: 253px;
+  height: 1px;
+  left: 0px;
+  top: 0px;
+
+  background: #edeff1;
+
+}
+
+/* Sidenav */
+.sidenav {
+
+  position: absolute;
+  width: 238px;
+  height: 457px;
+  left: 0px;
+  top: 96px;
+
+}
+
+/* More */
+.more {
+
+  position: absolute;
+  height: 20px;
+  left: 26.77%;
+  right: 60.24%;
+  top: calc(50% - 20px / 2 + 63px);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #414244;
+
+}
+
+/* Arrows / chevron_down */
+.arrows-chevron-down {
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 24px;
+  top: 533px;
+
+}
+
+/* Vector */
+.vector-4 {
+
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 35.75%;
+  bottom: 33.33%;
+
+}
+
+/* Text & Icons / Primary Text */
+.text-icons-primary-text {
+  background: #202123;
+
+}
+
+/* Personal */
+.personal {
+
+  position: absolute;
+  height: 20px;
+  left: 26.77%;
+  right: 51.57%;
+  top: calc(50% - 20px / 2 + 27px);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #414244;
+
+}
+
+/* label */
+.label {
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 24px;
+  top: 497px;
+
+}
+
+/* Vector */
+.vector-5 {
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+}
+
+/* Vector */
+.vector-6 {
+
+  position: absolute;
+  left: 12.5%;
+  right: 8.33%;
+  top: 20.83%;
+  bottom: 20.83%;
+
+  background: #ea4335;
+
+}
+
+/* Work */
+.work {
+
+  position: absolute;
+  height: 20px;
+  left: 26.77%;
+  right: 60.24%;
+  top: calc(50% - 20px / 2 - 9px);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #414244;
+
+}
+
+/* label */
+.label-2 {
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 24px;
+  top: 461px;
+
+}
+
+/* Vector */
+.vector-7 {
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+}
+
+/* Vector */
+.vector-8 {
+
+  position: absolute;
+  left: 12.5%;
+  right: 8.33%;
+  top: 20.83%;
+  bottom: 20.83%;
+
+  background: #1a73e8;
+
+}
+
+/* News */
+.news {
+
+  position: absolute;
+  height: 20px;
+  left: 26.77%;
+  right: 59.06%;
+  top: calc(50% - 20px / 2 - 45px);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #414244;
+
+}
+
+/* label */
+.label-3 {
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 24px;
+  top: 425px;
+
+}
+
+/* Vector */
+.vector-9 {
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+}
+
+/* Vector */
+.vector-10 {
+
+  position: absolute;
+  left: 12.5%;
+  right: 8.33%;
+  top: 20.83%;
+  bottom: 20.83%;
+
+  background: #f9ab01;
+
+}
+
+/* Team */
+.team {
+
+  position: absolute;
+  height: 20px;
+  left: 26.77%;
+  right: 59.45%;
+  top: calc(50% - 20px / 2 - 81px);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #414244;
+
+}
+
+/* label */
+.label-4 {
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 24px;
+  top: 389px;
+
+}
+
+/* Vector */
+.vector-11 {
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+}
+
+/* Vector */
+.vector-12 {
+
+  position: absolute;
+  left: 12.5%;
+  right: 8.33%;
+  top: 20.83%;
+  bottom: 20.83%;
+
+  background: #1e8e3e;
+
+}
+
+/* Categories */
+.categories {
+
+  position: absolute;
+  height: 20px;
+  left: 26.77%;
+  right: 46.46%;
+  top: calc(50% - 20px / 2 - 117px);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #414244;
+
+}
+
+/* label */
+.label-5 {
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 24px;
+  top: 353px;
+
+}
+
+/* Vector */
+.vector-13 {
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+}
+
+/* Vector */
+.vector-14 {
+
+  position: absolute;
+  left: 12.5%;
+  right: 8.33%;
+  top: 20.83%;
+  bottom: 20.83%;
+
+  background: #64676c;
+
+}
+
+/* 14 */
+.c-14 {
+
+  position: absolute;
+  height: 20px;
+  left: 87.4%;
+  right: 6.3%;
+  top: calc(50% - 20px / 2 - 153px);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+  letter-spacing: -0.0373333px;
+
+  color: #414244;
+
+}
+
+/* Drafts */
+.drafts {
+
+  position: absolute;
+  height: 20px;
+  left: 26.77%;
+  right: 58.27%;
+  top: calc(50% - 20px / 2 - 153px);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #414244;
+
+}
+
+/* file */
+.file {
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 24px;
+  top: 317px;
+
+}
+
+/* Vector */
+.vector-15 {
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+}
+
+/* Vector */
+.vector-16 {
+
+  position: absolute;
+  left: 16.67%;
+  right: 16.67%;
+  top: 8.33%;
+  bottom: 8.33%;
+
+  background: #64676c;
+
+}
+
+/* Trash */
+.trash {
+
+  position: absolute;
+  height: 20px;
+  left: 26.77%;
+  right: 59.45%;
+  top: calc(50% - 20px / 2 - 189px);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #414244;
+
+}
+
+/* delete */
+.delete {
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 24px;
+  top: 281px;
+
+}
+
+/* Vector */
+.vector-17 {
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+}
+
+/* Vector */
+.vector-18 {
+
+  position: absolute;
+  left: 20.83%;
+  right: 20.83%;
+  top: 12.5%;
+  bottom: 12.5%;
+
+  background: #64676c;
+
+}
+
+/* Sent */
+.sent {
+
+  position: absolute;
+  height: 20px;
+  left: 26.77%;
+  right: 61.81%;
+  top: calc(50% - 20px / 2 - 225px);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #414244;
+
+}
+
+/* send */
+.send {
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 24px;
+  top: 245px;
+
+}
+
+/* Vector */
+.vector-19 {
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+}
+
+/* Vector */
+.vector-20 {
+
+  position: absolute;
+  left: 8.33%;
+  right: 4.17%;
+  top: 12.5%;
+  bottom: 12.5%;
+
+  background: #64676c;
+
+}
+
+/* Important */
+.important {
+
+  position: absolute;
+  height: 20px;
+  left: 26.77%;
+  right: 48.82%;
+  top: calc(50% - 20px / 2 - 261px);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #414244;
+
+}
+
+/* label_important */
+.label-important {
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 24px;
+  top: 209px;
+
+}
+
+/* Vector */
+.vector-21 {
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+}
+
+/* Vector */
+.vector-22 {
+
+  position: absolute;
+  left: 14.58%;
+  right: 14.58%;
+  top: 20.83%;
+  bottom: 20.83%;
+
+  background: #64676c;
+
+}
+
+/* Snoozed */
+.snoozed {
+
+  position: absolute;
+  height: 20px;
+  left: 26.77%;
+  right: 51.57%;
+  top: calc(50% - 20px / 2 - 297px);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #414244;
+
+}
+
+/* clock 1 */
+.clock-1 {
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 24px;
+  top: 173px;
+
+}
+
+/* Vector */
+.vector-23 {
+
+  position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 8.33%;
+  bottom: 8.33%;
+
+  background: #64676c;
+
+}
+
+/* Starred */
+.starred {
+
+  position: absolute;
+  height: 20px;
+  left: 26.77%;
+  right: 55.12%;
+  top: calc(50% - 20px / 2 - 333px);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #414244;
+
+}
+
+/* star */
+.star {
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: 24px;
+  top: 137px;
+
+}
+
+/* Group */
+.group {
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+}
+
+/* Vector */
+.vector-24 {
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+}
+
+/* Vector */
+.vector-25 {
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+}
+
+/* Group */
+.group-2 {
+
+  position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 8.33%;
+  bottom: 12.5%;
+
+}
+
+/* Vector */
+.vector-26 {
+
+  position: absolute;
+  left: 8.33%;
+  right: 8.33%;
+  top: 8.33%;
+  bottom: 12.5%;
+
+  background: #64676c;
+
+}
+
+/* Base */
+.base {
+
+  position: absolute;
+  width: 238px;
+  height: 32px;
+  left: 0px;
+  top: 96px;
+
+  background: #fce8e7;
+  border-radius: 0px 16px 16px 0px;
+
+}
+
+/* inbox */
+.inbox {
+
+  position: absolute;
+  width: 78px;
+  height: 18px;
+  left: 27px;
+  top: 103px;
+
+}
+
+/* Inbox */
+.inbox-2 {
+
+  position: absolute;
+  height: 20px;
+  left: 52.56%;
+  right: 2.56%;
+  top: calc(50% - 20px / 2);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  /* identical to box height, or 143% */
+
+  color: #d0221d;
+
+}
+
+/* inbox */
+.inbox-3 {
+
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: -3px;
+  top: -1px;
+
+}
+
+/* Vector */
+.vector-27 {
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+}
+
+/* Vector */
+.vector-28 {
+
+  position: absolute;
+  left: 12.5%;
+  right: 12.5%;
+  top: 12.5%;
+  bottom: 12.5%;
+
+  background: #d01f1a;
+
+}
+
+/* Gmail/Button/Compose */
+.gmail-button-compose {
+
+  position: absolute;
+  width: 144px;
+  height: 48px;
+  left: 12px;
+  top: 24px;
+
+}
+
+/* Rectangle */
+.rectangle {
+
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+
+  background: #ffffff;
+  box-shadow: 0px 1px 4px rgba(126, 126, 126, 0.5);
+  border-radius: 27.2416px;
+
+}
+
+/* Icons/Google + */
+.icons-google {
+
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 20px;
+  top: 12px;
+
+}
+
+/* Path 6 */
+.path-6 {
+
+  position: absolute;
+  left: 20.71%;
+  right: 76.56%;
+  top: 25%;
+  bottom: 45.45%;
+
+  background: #ea483b;
+
+}
+
+/* Path 6 */
+.path-6-2 {
+
+  position: absolute;
+  left: 20.71%;
+  right: 69.44%;
+  top: 46.33%;
+  bottom: 45.45%;
+
+  background: #4285f4;
+  transform: matrix(1, 0, 0, -1, 0, 0);
+
+}
+
+/* Rectangle 7 */
+.rectangle-7 {
+
+  position: absolute;
+  left: 20.71%;
+  right: 76.56%;
+  top: 54.55%;
+  bottom: 25%;
+
+  background: #61bb79;
+
+}
+
+/* Rectangle 7 */
+.rectangle-7-2 {
+
+  position: absolute;
+  left: 13.89%;
+  right: 83.37%;
+  top: 46.33%;
+  bottom: 33.21%;
+
+  background: #fcbf11;
+  transform: rotate(-90deg);
+
+}
+
+/* Compose */
+.compose {
+
+  position: absolute;
+  height: 24px;
+  left: 38.89%;
+  right: 13.89%;
+  top: calc(50% - 24px / 2);
+
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  color: #777b7e;
+}
