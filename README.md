@@ -61,5 +61,5 @@
 | 59 | We compared `var/let/const` and practiced ES6 arrow functions. |
 | 60 | We practiced OOP, modules (import/export), and destructuring in ES6. |
 | 61 | We demonstrated common design patterns like Singleton and Observer. |
-| 62 | We defined SQLAlchemy models and demonstrated basic CRUD operations in Flask. |
+| 62 | We defined SQLAlchemy models and built basic REST API endpoints in Flask. |
 | 63 | We used Python’s `random` module and recreated `randint` behavior. |
