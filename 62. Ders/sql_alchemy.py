@@ -1,5 +1,6 @@
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
+from flask import jsonify, request
 from datetime import datetime, timezone
 
 app = Flask(__name__)
@@ -78,5 +79,52 @@ with app.app_context():
     # DELETE - silme
     kullanici = Kullanici.query.get(1)  # id ye göre getirilir
     db.session.delete(kullanici)
+
+
+# REST API
+# HTTP metodlarından anlamlar aynı şekilde gelir yani sadece pythonda kullanıyoruz
+# GET: Kaynak okumak için
+# POST: Yeni bir kaynak oluşturmak için
+# PUT: Full yama
+# PATCH: Kısmi yama
+# DELETE: siliyor
+# Aşağıdaki kodda kullanılacak olan endpointler ve sonuçları
+# GET/api/kullanicilar - Tüm kullanıcıları listelemek için
+# GET/api/kullanicilar/id - id'deki kullanıcıyı listelemek için
+# DELETE/api/kullanicilar/id - ID'si 1 olan kullanıcıyı siler
+# POST/api/kullanicilar - Yeni kullanıcı verisi yükler
+# PUT/api/kullanicilar/id - ID'si 1 olan kullanıcıyı günceller
+
+# Get ile kaynakların listelenmesi - çoklu kaynak
+@app.route('/api/kullanicilar', methods=['GET'])
+# Tekli veri çekmek için '/api/kullanicilar/1 gibi id numarası eklenerek çekim yapılır
+def get_kullanicilar():
+    kullanicilar = Kullanici.query.all()
+    return jsonify([{
+        'id': k.id,
+        'kullanici_adi': k.kullanici_adi,
+        'email': k.email,
+    }for k in kullanicilar])
+
+
+@app.route('/api/kullanici/1', methods=['GET'])
+# 1 örnek seçilen bir id'dir farklı idler arasında seçim için id değişikliği yapılsın yeterli
+def get_kullanici():
+    kullanicilar = Kullanici.query.get_or_404(1)
+    return jsonify([{
+        'id': kullanici.id,
+        'kullanici_adi': kullanici.kullanici_adi,
+        'email': kullanici.email,
+    }])
+
+
+"""
+# errorhandler
+@app.errorhandler(404)
+def bilmemnebulunamadi(e):
+    return render_template('404.html'), 404
+"""
+
+
 if __name__ == "__main__":
     app.run(debug=True)
