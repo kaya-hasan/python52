@@ -63,3 +63,4 @@
 | 61 | We demonstrated common design patterns like Singleton and Observer. |
 | 62 | We defined SQLAlchemy models and built basic REST API endpoints in Flask. |
 | 63 | We used Python’s `random` module and recreated `randint` behavior. |
+| 64 | We expanded a Django blog app with Tag and Profile models, post tagging, and admin customizations. |
